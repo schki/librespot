@@ -249,7 +249,7 @@ impl Spirc {
         let ident = session.device_id().to_owned();
 
         // Uri updated in response to issue #288
-        let uri = "hm://remote/user/{}/";
+        let uri = "hm://remote/user/%23eddi/";
 
         let subscription = session.mercury().subscribe(&uri as &str);
         let subscription = subscription
